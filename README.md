@@ -31,10 +31,10 @@ Dalam menganalisis kinerja bisnis Kimia Farma, saya memanfaatkan tiga tools utam
 
 Dalam proyek ini, digunakan **4 file CSV** yang memuat data bisnis utama dari **Kimia Farma**:
 
-🧾 * `kf_final_transaction` : Berisi riwayat pencatatan transaksi, termasuk detail penjualan dan pendapatan.
-📦 * `kf_inventory` : Memuat data ketersediaan stok produk dan pergerakan inventaris.
-🏢 `kf_kantor_cabang` : Menyediakan informasi terkait lokasi kantor cabang dan detail operasionalnya.
-🏷️ * `kf_product` : Memuat rincian informasi produk, termasuk kategori dan harga.
+* 🧾 `kf_final_transaction` : Berisi riwayat pencatatan transaksi, termasuk detail penjualan dan pendapatan.
+* 📦 `kf_inventory` : Memuat data ketersediaan stok produk dan pergerakan inventaris.
+* 🏢 `kf_kantor_cabang` : Menyediakan informasi terkait lokasi kantor cabang dan detail operasionalnya.
+* 🏷️ `kf_product` : Memuat rincian informasi produk, termasuk kategori dan harga.
 
 Setelah mengimpor file-file tersebut ke dalam **Google BigQuery**, saya membuat sebuah tabel analisis baru bernama `tabel_analisis_kf` pada dataset yang sama. Tabel ini berfungsi sebagai **sumber data terpusat (*centralized data source*)**, yang menggabungkan keempat file CSV sebelumnya untuk memudahkan proses analisis. Kemudian **menggabungkan dataset ini** menggunakan *query* SQL untuk memastikan dataset menjadi terstruktur sebelum dianalisis lebih lanjut. Berikut adalah kode SQL yang digunakan untuk membuat tabel analisis: 
 
