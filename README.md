@@ -109,3 +109,36 @@ Setelah terhubung, data divisualisasikan menggunakan beberapa komponen utama:
 * 🧮 **Tables & Scorecards:** Untuk menyoroti metrik penting seperti total pendapatan, laba bersih, dan jumlah keseluruhan transaksi.
 
 Pemanfaatan Looker Studio ini membantu menggali *insight* lebih dalam terkait performa bisnis Kimia Farma, sehingga mendukung pengambilan keputusan yang akurat dan berbasis data (*data-driven decision-making*). 🎯
+
+## 📊 Dashboard Performance Analytics
+
+Dashboard ini dibuat untuk menganalisis **kinerja bisnis Kimia Farma periode 2020–2023** dengan menggunakan beberapa indikator utama, meliputi jumlah transaksi, pelanggan, *net sales*, laba bersih, margin laba, persebaran transaksi dan penjualan berdasarkan provinsi, serta rating pelanggan. Berikut adalah hasil Dashboard yang telah dibuat
+
+<img width="1938" height="2740" alt="Dashboard_Rakamin_x_Kimia_Farma" src="https://github.com/user-attachments/assets/518ef587-ccf0-49ea-abe2-1cde5485e4b1" />
+
+
+### 🔎 Key Insights
+
+* **Customer & Transaction:** Terdapat 672,5 ribu transaksi dari 264,6 ribu pelanggan, dengan rata-rata sekitar **2,5 transaksi per pelanggan**, yang menunjukkan adanya pembelian berulang yang cukup baik.
+
+* **Sales Trend:** Penjualan menunjukkan **pola musiman yang relatif serupa** setiap tahun. Penjualan cenderung terendah pada Februari (~Rp6,6–6,8 M), kemudian meningkat pada Maret–Mei. Pola ini dapat dimanfaatkan untuk mengoptimalkan persediaan dan strategi promosi.
+
+* **Top Transaction Provinces:** **Jawa Barat** menjadi provinsi dengan transaksi tertinggi, yaitu **198.723 transaksi**, diikuti Sumatera Utara dan Jawa Tengah. Sepuluh provinsi dengan transaksi tertinggi juga menjadi sepuluh provinsi dengan *net sales* terbesar.
+
+* **Top Sales Provinces:** Jawa Barat mencatat *net sales* tertinggi sebesar **Rp102,5 M**. Sepuluh provinsi teratas berkontribusi sekitar **70,8% dari total net sales**, menunjukkan konsentrasi bisnis yang cukup tinggi pada wilayah utama.
+
+* **Profitability:** Margin laba bersih relatif stabil di sekitar **28,4% selama 2020–2023**. Kondisi ini menunjukkan profitabilitas yang konsisten, sekaligus memberikan peluang untuk meningkatkan efisiensi dan margin.
+
+* **Customer Satisfaction:** Beberapa cabang memiliki **rating tinggi (4,7–4,8)** tetapi volume transaksi relatif rendah. Cabang tersebut berpotensi dikembangkan melalui peningkatan *customer traffic*, *awareness*, dan strategi promosi lokal.
+
+### 💡 Business Recommendations
+
+1. Mempertahankan performa dan loyalitas pelanggan di wilayah dengan kontribusi penjualan terbesar, khususnya Jawa Barat.
+2. Meningkatkan promosi dan *customer traffic* pada cabang dengan rating tinggi tetapi transaksi rendah.
+3. Memanfaatkan pola musiman untuk mengatur stok, kapasitas layanan, dan waktu pelaksanaan promosi.
+4. Melakukan ekspansi pada provinsi dengan kontribusi transaksi dan penjualan yang masih rendah.
+5. Mengevaluasi *product mix*, biaya operasional, dan strategi harga untuk meningkatkan margin laba.
+
+### 🎯 Overall Conclusion
+
+Secara keseluruhan, Kimia Farma menunjukkan **kinerja bisnis yang stabil selama 2020–2023**, dengan profitabilitas yang konsisten dan konsentrasi penjualan yang kuat pada beberapa provinsi utama. Peluang pertumbuhan dapat diarahkan pada **optimalisasi pasar utama, peningkatan transaksi pada cabang ber-rating tinggi, pemanfaatan pola musiman, serta ekspansi ke wilayah dengan potensi pertumbuhan**.
